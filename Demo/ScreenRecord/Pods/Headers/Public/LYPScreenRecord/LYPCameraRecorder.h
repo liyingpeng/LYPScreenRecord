@@ -1,0 +1,1 @@
+../../../LYPScreenRecord/LYPScreenRecord/Classes/LYPCameraRecorder.h

@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A03F6FB6BCC9B9F044F9C6 /* libPods-ScreenRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CAF3E07A3CD42C2A176FE7C /* libPods-ScreenRecord.a */; };
+		7DB5230567A3A2ADDC25CCD5 /* libPods-ScreenRecordTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C067406C0EF3DCBF6980B5F4 /* libPods-ScreenRecordTests.a */; };
+		9C4484E61F984E890058E242 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4484E51F984E890058E242 /* AppDelegate.m */; };
+		9C4484E91F984E890058E242 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4484E81F984E890058E242 /* ViewController.m */; };
+		9C4484EC1F984E890058E242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4484EA1F984E890058E242 /* Main.storyboard */; };
+		9C4484EE1F984E890058E242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4484ED1F984E890058E242 /* Assets.xcassets */; };
+		9C4484F11F984E890058E242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4484EF1F984E890058E242 /* LaunchScreen.storyboard */; };
+		9C4484F41F984E890058E242 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4484F31F984E890058E242 /* main.m */; };
+		9C4484FE1F984E890058E242 /* ScreenRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4484FD1F984E890058E242 /* ScreenRecordTests.m */; };
+		9C4485091F984E890058E242 /* ScreenRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4485081F984E890058E242 /* ScreenRecordUITests.m */; };
+		9C4485181F9850210058E242 /* ScreenRecordPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4485161F9850210058E242 /* ScreenRecordPlayerViewController.m */; };
+		ABCF2A306095909C1C36A126 /* libPods-ScreenRecordUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0100D335F57286512E0B3C7A /* libPods-ScreenRecordUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C4484FA1F984E890058E242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C4484D91F984E890058E242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4484E01F984E890058E242;
+			remoteInfo = ScreenRecord;
+		};
+		9C4485051F984E890058E242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C4484D91F984E890058E242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4484E01F984E890058E242;
+			remoteInfo = ScreenRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0100D335F57286512E0B3C7A /* libPods-ScreenRecordUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScreenRecordUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5C4504929853F771CE55CB /* Pods-ScreenRecordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenRecordTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenRecordTests/Pods-ScreenRecordTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F847506C582B8893EA1428A /* Pods-ScreenRecordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenRecordUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenRecordUITests/Pods-ScreenRecordUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2098113A53CE04ED92179725 /* Pods-ScreenRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenRecord/Pods-ScreenRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		6CAF3E07A3CD42C2A176FE7C /* libPods-ScreenRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScreenRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF9BD34E49E32517AFBDC03 /* Pods-ScreenRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenRecord/Pods-ScreenRecord.release.xcconfig"; sourceTree = "<group>"; };
+		875A4DF58C8BFE1A1641FA33 /* Pods-ScreenRecordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenRecordTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenRecordTests/Pods-ScreenRecordTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C4484E11F984E890058E242 /* ScreenRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4484E41F984E890058E242 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C4484E51F984E890058E242 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C4484E71F984E890058E242 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C4484E81F984E890058E242 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C4484EB1F984E890058E242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C4484ED1F984E890058E242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C4484F01F984E890058E242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C4484F21F984E890058E242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4484F31F984E890058E242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C4484F91F984E890058E242 /* ScreenRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4484FD1F984E890058E242 /* ScreenRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenRecordTests.m; sourceTree = "<group>"; };
+		9C4484FF1F984E890058E242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4485041F984E890058E242 /* ScreenRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4485081F984E890058E242 /* ScreenRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenRecordUITests.m; sourceTree = "<group>"; };
+		9C44850A1F984E890058E242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4485161F9850210058E242 /* ScreenRecordPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenRecordPlayerViewController.m; sourceTree = "<group>"; };
+		9C4485171F9850210058E242 /* ScreenRecordPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenRecordPlayerViewController.h; sourceTree = "<group>"; };
+		BCC648B345928EA4959A2A5F /* Pods-ScreenRecordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenRecordUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenRecordUITests/Pods-ScreenRecordUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C067406C0EF3DCBF6980B5F4 /* libPods-ScreenRecordTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScreenRecordTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C4484DE1F984E890058E242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A03F6FB6BCC9B9F044F9C6 /* libPods-ScreenRecord.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4484F61F984E890058E242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB5230567A3A2ADDC25CCD5 /* libPods-ScreenRecordTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4485011F984E890058E242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCF2A306095909C1C36A126 /* libPods-ScreenRecordUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BFDC699C4FDB4EBA0927EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CAF3E07A3CD42C2A176FE7C /* libPods-ScreenRecord.a */,
+				C067406C0EF3DCBF6980B5F4 /* libPods-ScreenRecordTests.a */,
+				0100D335F57286512E0B3C7A /* libPods-ScreenRecordUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AA0FA2F365DB33C93D8D6A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2098113A53CE04ED92179725 /* Pods-ScreenRecord.debug.xcconfig */,
+				7CF9BD34E49E32517AFBDC03 /* Pods-ScreenRecord.release.xcconfig */,
+				0F5C4504929853F771CE55CB /* Pods-ScreenRecordTests.debug.xcconfig */,
+				875A4DF58C8BFE1A1641FA33 /* Pods-ScreenRecordTests.release.xcconfig */,
+				BCC648B345928EA4959A2A5F /* Pods-ScreenRecordUITests.debug.xcconfig */,
+				0F847506C582B8893EA1428A /* Pods-ScreenRecordUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C4484D81F984E890058E242 = {
+			isa = PBXGroup;
+			children = (
+				9C4484E31F984E890058E242 /* ScreenRecord */,
+				9C4484FC1F984E890058E242 /* ScreenRecordTests */,
+				9C4485071F984E890058E242 /* ScreenRecordUITests */,
+				9C4484E21F984E890058E242 /* Products */,
+				1AA0FA2F365DB33C93D8D6A3 /* Pods */,
+				05BFDC699C4FDB4EBA0927EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C4484E21F984E890058E242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C4484E11F984E890058E242 /* ScreenRecord.app */,
+				9C4484F91F984E890058E242 /* ScreenRecordTests.xctest */,
+				9C4485041F984E890058E242 /* ScreenRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4484E31F984E890058E242 /* ScreenRecord */ = {
+			isa = PBXGroup;
+			children = (
+				9C4484E41F984E890058E242 /* AppDelegate.h */,
+				9C4484E51F984E890058E242 /* AppDelegate.m */,
+				9C4484E71F984E890058E242 /* ViewController.h */,
+				9C4484E81F984E890058E242 /* ViewController.m */,
+				9C4485171F9850210058E242 /* ScreenRecordPlayerViewController.h */,
+				9C4485161F9850210058E242 /* ScreenRecordPlayerViewController.m */,
+				9C4484EA1F984E890058E242 /* Main.storyboard */,
+				9C4484ED1F984E890058E242 /* Assets.xcassets */,
+				9C4484EF1F984E890058E242 /* LaunchScreen.storyboard */,
+				9C4484F21F984E890058E242 /* Info.plist */,
+				9C4484F31F984E890058E242 /* main.m */,
+			);
+			path = ScreenRecord;
+			sourceTree = "<group>";
+		};
+		9C4484FC1F984E890058E242 /* ScreenRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C4484FD1F984E890058E242 /* ScreenRecordTests.m */,
+				9C4484FF1F984E890058E242 /* Info.plist */,
+			);
+			path = ScreenRecordTests;
+			sourceTree = "<group>";
+		};
+		9C4485071F984E890058E242 /* ScreenRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C4485081F984E890058E242 /* ScreenRecordUITests.m */,
+				9C44850A1F984E890058E242 /* Info.plist */,
+			);
+			path = ScreenRecordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C4484E01F984E890058E242 /* ScreenRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C44850D1F984E890058E242 /* Build configuration list for PBXNativeTarget "ScreenRecord" */;
+			buildPhases = (
+				114B16499C9B6BB69AE82B39 /* [CP] Check Pods Manifest.lock */,
+				9C4484DD1F984E890058E242 /* Sources */,
+				9C4484DE1F984E890058E242 /* Frameworks */,
+				9C4484DF1F984E890058E242 /* Resources */,
+				ECEAB52E2645A90BC61756E4 /* [CP] Embed Pods Frameworks */,
+				7F10CB276077C8ABA1EAD7F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenRecord;
+			productName = ScreenRecord;
+			productReference = 9C4484E11F984E890058E242 /* ScreenRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C4484F81F984E890058E242 /* ScreenRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4485101F984E890058E242 /* Build configuration list for PBXNativeTarget "ScreenRecordTests" */;
+			buildPhases = (
+				88307381D8BFE0F41BFF338B /* [CP] Check Pods Manifest.lock */,
+				9C4484F51F984E890058E242 /* Sources */,
+				9C4484F61F984E890058E242 /* Frameworks */,
+				9C4484F71F984E890058E242 /* Resources */,
+				F927937577D3301D8B07E7AD /* [CP] Embed Pods Frameworks */,
+				C8CB0A9EA512AE3E8BC8A87D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4484FB1F984E890058E242 /* PBXTargetDependency */,
+			);
+			name = ScreenRecordTests;
+			productName = ScreenRecordTests;
+			productReference = 9C4484F91F984E890058E242 /* ScreenRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C4485031F984E890058E242 /* ScreenRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4485131F984E890058E242 /* Build configuration list for PBXNativeTarget "ScreenRecordUITests" */;
+			buildPhases = (
+				2FEDAC13ACC3EF83B46FB79E /* [CP] Check Pods Manifest.lock */,
+				9C4485001F984E890058E242 /* Sources */,
+				9C4485011F984E890058E242 /* Frameworks */,
+				9C4485021F984E890058E242 /* Resources */,
+				3675EBD821492283B0E9EFB4 /* [CP] Embed Pods Frameworks */,
+				6CD65AC73180E071E6C7DECB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4485061F984E890058E242 /* PBXTargetDependency */,
+			);
+			name = ScreenRecordUITests;
+			productName = ScreenRecordUITests;
+			productReference = 9C4485041F984E890058E242 /* ScreenRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C4484D91F984E890058E242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "李应鹏";
+				TargetAttributes = {
+					9C4484E01F984E890058E242 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					9C4484F81F984E890058E242 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C4484E01F984E890058E242;
+					};
+					9C4485031F984E890058E242 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C4484E01F984E890058E242;
+					};
+				};
+			};
+			buildConfigurationList = 9C4484DC1F984E890058E242 /* Build configuration list for PBXProject "ScreenRecord" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C4484D81F984E890058E242;
+			productRefGroup = 9C4484E21F984E890058E242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C4484E01F984E890058E242 /* ScreenRecord */,
+				9C4484F81F984E890058E242 /* ScreenRecordTests */,
+				9C4485031F984E890058E242 /* ScreenRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C4484DF1F984E890058E242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4484F11F984E890058E242 /* LaunchScreen.storyboard in Resources */,
+				9C4484EE1F984E890058E242 /* Assets.xcassets in Resources */,
+				9C4484EC1F984E890058E242 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4484F71F984E890058E242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4485021F984E890058E242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		114B16499C9B6BB69AE82B39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScreenRecord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FEDAC13ACC3EF83B46FB79E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScreenRecordUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3675EBD821492283B0E9EFB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScreenRecordUITests/Pods-ScreenRecordUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CD65AC73180E071E6C7DECB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScreenRecordUITests/Pods-ScreenRecordUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F10CB276077C8ABA1EAD7F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScreenRecord/Pods-ScreenRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88307381D8BFE0F41BFF338B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScreenRecordTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8CB0A9EA512AE3E8BC8A87D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScreenRecordTests/Pods-ScreenRecordTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECEAB52E2645A90BC61756E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScreenRecord/Pods-ScreenRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F927937577D3301D8B07E7AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScreenRecordTests/Pods-ScreenRecordTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C4484DD1F984E890058E242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4485181F9850210058E242 /* ScreenRecordPlayerViewController.m in Sources */,
+				9C4484E91F984E890058E242 /* ViewController.m in Sources */,
+				9C4484F41F984E890058E242 /* main.m in Sources */,
+				9C4484E61F984E890058E242 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4484F51F984E890058E242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4484FE1F984E890058E242 /* ScreenRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4485001F984E890058E242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4485091F984E890058E242 /* ScreenRecordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C4484FB1F984E890058E242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4484E01F984E890058E242 /* ScreenRecord */;
+			targetProxy = 9C4484FA1F984E890058E242 /* PBXContainerItemProxy */;
+		};
+		9C4485061F984E890058E242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4484E01F984E890058E242 /* ScreenRecord */;
+			targetProxy = 9C4485051F984E890058E242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C4484EA1F984E890058E242 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4484EB1F984E890058E242 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C4484EF1F984E890058E242 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4484F01F984E890058E242 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C44850B1F984E890058E242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C44850C1F984E890058E242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C44850E1F984E890058E242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2098113A53CE04ED92179725 /* Pods-ScreenRecord.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScreenRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.ScreenRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C44850F1F984E890058E242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF9BD34E49E32517AFBDC03 /* Pods-ScreenRecord.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScreenRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.ScreenRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C4485111F984E890058E242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5C4504929853F771CE55CB /* Pods-ScreenRecordTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScreenRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.ScreenRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenRecord.app/ScreenRecord";
+			};
+			name = Debug;
+		};
+		9C4485121F984E890058E242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875A4DF58C8BFE1A1641FA33 /* Pods-ScreenRecordTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScreenRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.ScreenRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenRecord.app/ScreenRecord";
+			};
+			name = Release;
+		};
+		9C4485141F984E890058E242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC648B345928EA4959A2A5F /* Pods-ScreenRecordUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScreenRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.ScreenRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScreenRecord;
+			};
+			name = Debug;
+		};
+		9C4485151F984E890058E242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F847506C582B8893EA1428A /* Pods-ScreenRecordUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ScreenRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.ScreenRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScreenRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C4484DC1F984E890058E242 /* Build configuration list for PBXProject "ScreenRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C44850B1F984E890058E242 /* Debug */,
+				9C44850C1F984E890058E242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C44850D1F984E890058E242 /* Build configuration list for PBXNativeTarget "ScreenRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C44850E1F984E890058E242 /* Debug */,
+				9C44850F1F984E890058E242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4485101F984E890058E242 /* Build configuration list for PBXNativeTarget "ScreenRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4485111F984E890058E242 /* Debug */,
+				9C4485121F984E890058E242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4485131F984E890058E242 /* Build configuration list for PBXNativeTarget "ScreenRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4485141F984E890058E242 /* Debug */,
+				9C4485151F984E890058E242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C4484D91F984E890058E242 /* Project object */;
+}

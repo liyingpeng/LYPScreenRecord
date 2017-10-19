@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.summary      = "LYPScreenRecord"
   s.homepage     = "https://github.com/liyingpeng/LYPScreenRecord"
-  s.source       = { :git => "https://github.com/liyingpeng/LYPScreenRecord.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/liyingpeng/LYPScreenRecord.git", :tag => "0.0.1", :commit => "69f2a6b4030793228ae5b941f1efe30be1478170" }
   s.source_files = "LYPScreenRecord/Classes/*.{h,m}"
   s.requires_arc = true
   s.platform     = :ios, "7.0"

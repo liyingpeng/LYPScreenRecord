@@ -1,0 +1,984 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E09711F001C49F92A97060414E262B /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A81534581348F538DAD3351A750DA5AF /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F9D60D4A3C6972BB333A7CD8BFEBF9 /* LYPScreenRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C514934ED6161AB39B1A6171647049FF /* LYPScreenRecord-dummy.m */; };
+		10E2C98D5217D3B6E69B383862C675E3 /* LYPCameraRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A98D6C87DC555B8054F7A5421F7C05C /* LYPCameraRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E43D896BCE95A31B773ED29E0BF185DF /* MASViewAttribute.m */; };
+		16D1B9FC4AB029EAACE0CC47BBD79470 /* LYPRecordable.h in Headers */ = {isa = PBXBuildFile; fileRef = BA40645593703688A5E5BA89FBC2274F /* LYPRecordable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17353540133C253E7780BB16DDAEAACE /* Pods-ScreenRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF08A20880CE38A0A0793606BE4EBD /* Pods-ScreenRecord-dummy.m */; };
+		1CA67CCBE1B4E8638147F262ACFAF7CC /* LYPSRDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 92573D70D164E93808F8D0A0D9C0BC91 /* LYPSRDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F3BD3BC28432BB5E2F73501E06E4579 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 41199DD97DD5F2E653EC5BE590F6705F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B1002A3D13646ABFA86057F32D413CD /* LYPUIViewRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFBD80982E7D0504E68704809AF7977 /* LYPUIViewRecorder.m */; };
+		2D41CE99F847EF3C233EDBD46F207AE8 /* LYPScreenRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 264C28623E80652DD0590BA521C7D54D /* LYPScreenRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 96757B595E3E65B9DAD7F52CC41B04A5 /* MASViewConstraint.m */; };
+		3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C32AC3BAF91F1C65148C1FA4AB74BD2 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		490CA524521F7D444EA58FA915D7E99C /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 368943E29F90BD8A002F9F9DEFA728F6 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49B903D576E09560C52AA92FDCC31A68 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBD8F544AFEEC5EE412B1126199E075 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CBE1B46550A3FB90FDD1CB9CBA7B7FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5B7FD739CE913D35C9F715688E3621 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E88028E09669A5F174513A0211236FA /* LYPVideoWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = CC669A208095A6EFAA95995335A56AFB /* LYPVideoWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57AB6B649BA9567DAFE2F75ADC2D3DC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		57E2F541B7AF1C65893D2131327A45CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E02DC4AC37175C3F96F6A1104FA7378A /* MASCompositeConstraint.m */; };
+		6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		6249770A7D163B0F3001D5A76C5FA01C /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 03AA5117DE5DCAD9CC502533A7AE1A96 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C129CFF1CDEBDF066F89067608CDFF /* Masonry-dummy.m */; };
+		78C015BF64C1BDBC030AF8CD6403E272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A061E0F29BDF4F3FEB528377E298ED8F /* NSArray+MASAdditions.m */; };
+		86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CCF715A2F95C5F092B8823DCD3F89B /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87FBFC684E24AB7D7531F050E5883554 /* Pods-ScreenRecordUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A629D76399DBC8DF1E23F6C5706B13 /* Pods-ScreenRecordUITests-dummy.m */; };
+		89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D6D8F86B2BB8027F631591C1173B8 /* MASConstraint.m */; };
+		8AD91ABEA622742097F36E7AA0F1B616 /* LYPUIViewRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D8364B1B6BC5D0BB43A9A0CC0B08AC /* LYPUIViewRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0576EF21CAC2501B55E5D4D3A72FC588 /* MASLayoutConstraint.m */; };
+		983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4E1EE6EB5F8A14C021D3EBFB71F92F /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9934AEA2C891C201D8ED5746FF42FE1B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5311C005A685054282CFA101AD649C44 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BCC175E626713A24F6C8002AEB6A1E /* View+MASAdditions.m */; };
+		A6436E3CFFCBFE591E2D2A68ED90CAC6 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE6197574CC430017E30E898C1267CE /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83991D7C1373DF66020C2FDFC5D7564 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE2DDFD5ADEFB6BCA6BD8E9E7B2BE1C /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2B231E488ACB595078FE986DDBE21FB /* LYPCameraRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 53293BBC37E9307DADF62D005F9BB99E /* LYPCameraRecorder.m */; };
+		C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B396EE761983DAA6E759AE443BA195 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC57BE1CC6AFAB83A0400917F7A23CAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E6C50CF0DD07040AA53319325E969 /* ViewController+MASAdditions.m */; };
+		DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FFC5F9B4212A5CFA98E3E670B0D94F /* MASConstraintMaker.m */; };
+		E072DA57403C4BFF9B10467BE05604C5 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30577A3FFCF53B6F21BBAC249AB398AD /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E771349813022263F549BDF33CB4BB /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 83DDBC6B7DD8B8ED8F5BD5FEE0C945E9 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC48DE078CA5E55922CCE02354D475CD /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE2F48D3F21671A8443147B4C771D4E /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F446B30D20CF9D25EC4BDAEE7323B219 /* LYPScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDCBD303AAFDD041D5A53398A4D5A7D /* LYPScreenRecorder.m */; };
+		F4AAED37D16648578168FF7F946EEE0A /* LYPVideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBE704C17A917574F3F76ADFB55BEDE /* LYPVideoWriter.m */; };
+		FF787F038179E0C9EB968FC0A4AD3EA6 /* Pods-ScreenRecordTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC38E995F7365A2D0406DAA0F77EF20 /* Pods-ScreenRecordTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F5D5C6E4CE5D0758587C3D2FE5C983A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC8D9E02903E93BD0B2FEC9D846EA20;
+			remoteInfo = Masonry;
+		};
+		B4F38FEF891446D7A9EC80327373BA08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BCE5BB316FC8BCEA4022A694EC1E333;
+			remoteInfo = LYPScreenRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BB6DDE647E4E4A58A6F1C3C703EC80 /* Pods-ScreenRecordUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenRecordUITests-resources.sh"; sourceTree = "<group>"; };
+		03AA5117DE5DCAD9CC502533A7AE1A96 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		04C129CFF1CDEBDF066F89067608CDFF /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		0576EF21CAC2501B55E5D4D3A72FC588 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		0AAC50C4A27EAB3019F448B5121E6BE4 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		0C4C0077A66ABD26A134CC129C8A77BC /* Pods-ScreenRecordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRecordTests.release.xcconfig"; sourceTree = "<group>"; };
+		10232FA56375084E7CEB2A3AF374E4FE /* Pods-ScreenRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		1A0D6D8F86B2BB8027F631591C1173B8 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		1C32AC3BAF91F1C65148C1FA4AB74BD2 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		1C4E1EE6EB5F8A14C021D3EBFB71F92F /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		264C28623E80652DD0590BA521C7D54D /* LYPScreenRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYPScreenRecorder.h; path = LYPScreenRecord/Classes/LYPScreenRecorder.h; sourceTree = "<group>"; };
+		28313FA0C3797382C60F33B5E4B49A20 /* Pods-ScreenRecord-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenRecord-frameworks.sh"; sourceTree = "<group>"; };
+		2FE6197574CC430017E30E898C1267CE /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		30577A3FFCF53B6F21BBAC249AB398AD /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		368943E29F90BD8A002F9F9DEFA728F6 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		3DE2DDFD5ADEFB6BCA6BD8E9E7B2BE1C /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		41199DD97DD5F2E653EC5BE590F6705F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		4491B99618AF254A262129FC3FA364E1 /* Pods-ScreenRecordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRecordUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48D6075958E5CDB91E77148CACC2035A /* Pods-ScreenRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRecord.release.xcconfig"; sourceTree = "<group>"; };
+		4A98D6C87DC555B8054F7A5421F7C05C /* LYPCameraRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYPCameraRecorder.h; path = LYPScreenRecord/Classes/LYPCameraRecorder.h; sourceTree = "<group>"; };
+		50A629D76399DBC8DF1E23F6C5706B13 /* Pods-ScreenRecordUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenRecordUITests-dummy.m"; sourceTree = "<group>"; };
+		5311C005A685054282CFA101AD649C44 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		53293BBC37E9307DADF62D005F9BB99E /* LYPCameraRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYPCameraRecorder.m; path = LYPScreenRecord/Classes/LYPCameraRecorder.m; sourceTree = "<group>"; };
+		578181750B20389E562771A24E2E48EB /* Pods-ScreenRecord-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenRecord-resources.sh"; sourceTree = "<group>"; };
+		5FC4785B83B61E97DCFB2DF83A5C53C5 /* libPods-ScreenRecordTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ScreenRecordTests.a"; path = "libPods-ScreenRecordTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D6244E729448E961046E96D69E47DC /* Pods-ScreenRecord-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenRecord-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CBE704C17A917574F3F76ADFB55BEDE /* LYPVideoWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYPVideoWriter.m; path = LYPScreenRecord/Classes/LYPVideoWriter.m; sourceTree = "<group>"; };
+		6D6E0D632A968792063BDE8040DC3FB7 /* Pods-ScreenRecordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRecordUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70FE2DE80C7BD2EC12DFB75D6EE10EF2 /* Pods-ScreenRecordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScreenRecordTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70FFC5F9B4212A5CFA98E3E670B0D94F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		7DBD8F544AFEEC5EE412B1126199E075 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		83DDBC6B7DD8B8ED8F5BD5FEE0C945E9 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		85BCC3ADFDAABE149C50A3B4757EBF22 /* Pods-ScreenRecordTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenRecordTests-resources.sh"; sourceTree = "<group>"; };
+		8A3CD222E1AB85502D63E37595C9BEC4 /* libPods-ScreenRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ScreenRecord.a"; path = "libPods-ScreenRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF086A8A0B175663FF595312F1512F0 /* Pods-ScreenRecordTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenRecordTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		92573D70D164E93808F8D0A0D9C0BC91 /* LYPSRDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYPSRDefine.h; path = LYPScreenRecord/Classes/LYPSRDefine.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96757B595E3E65B9DAD7F52CC41B04A5 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		A061E0F29BDF4F3FEB528377E298ED8F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		A3CAFAE2B1B653571C38EB2EC6A3B459 /* libPods-ScreenRecordUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ScreenRecordUITests.a"; path = "libPods-ScreenRecordUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81534581348F538DAD3351A750DA5AF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		AA5B7FD739CE913D35C9F715688E3621 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		AFDCBD303AAFDD041D5A53398A4D5A7D /* LYPScreenRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYPScreenRecorder.m; path = LYPScreenRecord/Classes/LYPScreenRecorder.m; sourceTree = "<group>"; };
+		B5735061CF97C9FB386AB11E5A88E85B /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		B636CBF409FB88FA9C8DA5BAFC94A999 /* Pods-ScreenRecordTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenRecordTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6B396EE761983DAA6E759AE443BA195 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		B8BCC175E626713A24F6C8002AEB6A1E /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		BA40645593703688A5E5BA89FBC2274F /* LYPRecordable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYPRecordable.h; path = LYPScreenRecord/Classes/LYPRecordable.h; sourceTree = "<group>"; };
+		BEE2F48D3F21671A8443147B4C771D4E /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		C514934ED6161AB39B1A6171647049FF /* LYPScreenRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYPScreenRecord-dummy.m"; sourceTree = "<group>"; };
+		C6B18AB3CDD820E7D4E70D42821FFB2E /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC669A208095A6EFAA95995335A56AFB /* LYPVideoWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYPVideoWriter.h; path = LYPScreenRecord/Classes/LYPVideoWriter.h; sourceTree = "<group>"; };
+		CDB2B134BAFFAC3A9ABF0CC38AB36452 /* Pods-ScreenRecordTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenRecordTests-frameworks.sh"; sourceTree = "<group>"; };
+		CE4E6C50CF0DD07040AA53319325E969 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		D3DF08A20880CE38A0A0793606BE4EBD /* Pods-ScreenRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenRecord-dummy.m"; sourceTree = "<group>"; };
+		D4D8364B1B6BC5D0BB43A9A0CC0B08AC /* LYPUIViewRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYPUIViewRecorder.h; path = LYPScreenRecord/Classes/LYPUIViewRecorder.h; sourceTree = "<group>"; };
+		D59E55418CDF8DE419F7C9D40CD60F7D /* Pods-ScreenRecordUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenRecordUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6190E844793A7261115FB580B306E4E /* Pods-ScreenRecord-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenRecord-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D849ADD516693FE40BBDC8A193F69B67 /* Pods-ScreenRecordUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScreenRecordUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAC38E995F7365A2D0406DAA0F77EF20 /* Pods-ScreenRecordTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenRecordTests-dummy.m"; sourceTree = "<group>"; };
+		E02DC4AC37175C3F96F6A1104FA7378A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		E04B3C1111916EC5BA14B17A203F1800 /* libLYPScreenRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLYPScreenRecord.a; path = libLYPScreenRecord.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CCF715A2F95C5F092B8823DCD3F89B /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		E43D896BCE95A31B773ED29E0BF185DF /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		E9C70F4CAB8AE4B52243A843A828BD44 /* LYPScreenRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYPScreenRecord.xcconfig; sourceTree = "<group>"; };
+		EAC8ECA79ED80469EB190BC085B84913 /* LYPScreenRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYPScreenRecord-prefix.pch"; sourceTree = "<group>"; };
+		F1CCCEDF71223D5C42441CB1493B607E /* Pods-ScreenRecordUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenRecordUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEFBD80982E7D0504E68704809AF7977 /* LYPUIViewRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYPUIViewRecorder.m; path = LYPScreenRecord/Classes/LYPUIViewRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B630FA0B1C2D2522A94876EA527634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC57BE1CC6AFAB83A0400917F7A23CAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAEE273E01B753BE77947542DEA13AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E2F541B7AF1C65893D2131327A45CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */,
+				6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8DE13B32DC18944CDE3CB549D60698B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AB6B649BA9567DAFE2F75ADC2D3DC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B6CC4AF4A725F296333691309660CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C015BF64C1BDBC030AF8CD6403E272 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4689F833B62BC5044C8F26A60BFA67 /* Pods-ScreenRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				B636CBF409FB88FA9C8DA5BAFC94A999 /* Pods-ScreenRecordTests-acknowledgements.markdown */,
+				8EF086A8A0B175663FF595312F1512F0 /* Pods-ScreenRecordTests-acknowledgements.plist */,
+				DAC38E995F7365A2D0406DAA0F77EF20 /* Pods-ScreenRecordTests-dummy.m */,
+				CDB2B134BAFFAC3A9ABF0CC38AB36452 /* Pods-ScreenRecordTests-frameworks.sh */,
+				85BCC3ADFDAABE149C50A3B4757EBF22 /* Pods-ScreenRecordTests-resources.sh */,
+				70FE2DE80C7BD2EC12DFB75D6EE10EF2 /* Pods-ScreenRecordTests.debug.xcconfig */,
+				0C4C0077A66ABD26A134CC129C8A77BC /* Pods-ScreenRecordTests.release.xcconfig */,
+			);
+			name = "Pods-ScreenRecordTests";
+			path = "Target Support Files/Pods-ScreenRecordTests";
+			sourceTree = "<group>";
+		};
+		3D508D90604F1DF9997E15DE12B3686D /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				A81534581348F538DAD3351A750DA5AF /* MASCompositeConstraint.h */,
+				E02DC4AC37175C3F96F6A1104FA7378A /* MASCompositeConstraint.m */,
+				03AA5117DE5DCAD9CC502533A7AE1A96 /* MASConstraint.h */,
+				1A0D6D8F86B2BB8027F631591C1173B8 /* MASConstraint.m */,
+				AA5B7FD739CE913D35C9F715688E3621 /* MASConstraint+Private.h */,
+				BEE2F48D3F21671A8443147B4C771D4E /* MASConstraintMaker.h */,
+				70FFC5F9B4212A5CFA98E3E670B0D94F /* MASConstraintMaker.m */,
+				2FE6197574CC430017E30E898C1267CE /* MASLayoutConstraint.h */,
+				0576EF21CAC2501B55E5D4D3A72FC588 /* MASLayoutConstraint.m */,
+				7DBD8F544AFEEC5EE412B1126199E075 /* Masonry.h */,
+				41199DD97DD5F2E653EC5BE590F6705F /* MASUtilities.h */,
+				83DDBC6B7DD8B8ED8F5BD5FEE0C945E9 /* MASViewAttribute.h */,
+				E43D896BCE95A31B773ED29E0BF185DF /* MASViewAttribute.m */,
+				3DE2DDFD5ADEFB6BCA6BD8E9E7B2BE1C /* MASViewConstraint.h */,
+				96757B595E3E65B9DAD7F52CC41B04A5 /* MASViewConstraint.m */,
+				368943E29F90BD8A002F9F9DEFA728F6 /* NSArray+MASAdditions.h */,
+				A061E0F29BDF4F3FEB528377E298ED8F /* NSArray+MASAdditions.m */,
+				30577A3FFCF53B6F21BBAC249AB398AD /* NSArray+MASShorthandAdditions.h */,
+				5311C005A685054282CFA101AD649C44 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				1C32AC3BAF91F1C65148C1FA4AB74BD2 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				E3CCF715A2F95C5F092B8823DCD3F89B /* View+MASAdditions.h */,
+				B8BCC175E626713A24F6C8002AEB6A1E /* View+MASAdditions.m */,
+				1C4E1EE6EB5F8A14C021D3EBFB71F92F /* View+MASShorthandAdditions.h */,
+				B6B396EE761983DAA6E759AE443BA195 /* ViewController+MASAdditions.h */,
+				CE4E6C50CF0DD07040AA53319325E969 /* ViewController+MASAdditions.m */,
+				FE21B4C1D7B26FA23565BE5C11F9F1EE /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BDD13C1F64D264F989561CA3FD3C6F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A77FDC036BE75A80A8184434E536657A /* LYPScreenRecord */,
+				3D508D90604F1DF9997E15DE12B3686D /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6884F7FE2DADD14BED3B9640549FFA85 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD50E030421672332077D41D8B4BF1A7 /* Pods-ScreenRecord */,
+				2C4689F833B62BC5044C8F26A60BFA67 /* Pods-ScreenRecordTests */,
+				D39B9999DD91357E749AA1E136DB8313 /* Pods-ScreenRecordUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5BDD13C1F64D264F989561CA3FD3C6F1 /* Pods */,
+				DAEFE7FA87036E40175B8D47602CCB94 /* Products */,
+				6884F7FE2DADD14BED3B9640549FFA85 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A77FDC036BE75A80A8184434E536657A /* LYPScreenRecord */ = {
+			isa = PBXGroup;
+			children = (
+				4A98D6C87DC555B8054F7A5421F7C05C /* LYPCameraRecorder.h */,
+				53293BBC37E9307DADF62D005F9BB99E /* LYPCameraRecorder.m */,
+				BA40645593703688A5E5BA89FBC2274F /* LYPRecordable.h */,
+				264C28623E80652DD0590BA521C7D54D /* LYPScreenRecorder.h */,
+				AFDCBD303AAFDD041D5A53398A4D5A7D /* LYPScreenRecorder.m */,
+				92573D70D164E93808F8D0A0D9C0BC91 /* LYPSRDefine.h */,
+				D4D8364B1B6BC5D0BB43A9A0CC0B08AC /* LYPUIViewRecorder.h */,
+				FEFBD80982E7D0504E68704809AF7977 /* LYPUIViewRecorder.m */,
+				CC669A208095A6EFAA95995335A56AFB /* LYPVideoWriter.h */,
+				6CBE704C17A917574F3F76ADFB55BEDE /* LYPVideoWriter.m */,
+				E55BAFFD4C06E01334236C2C25280071 /* Support Files */,
+			);
+			name = LYPScreenRecord;
+			path = LYPScreenRecord;
+			sourceTree = "<group>";
+		};
+		D39B9999DD91357E749AA1E136DB8313 /* Pods-ScreenRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1CCCEDF71223D5C42441CB1493B607E /* Pods-ScreenRecordUITests-acknowledgements.markdown */,
+				D59E55418CDF8DE419F7C9D40CD60F7D /* Pods-ScreenRecordUITests-acknowledgements.plist */,
+				50A629D76399DBC8DF1E23F6C5706B13 /* Pods-ScreenRecordUITests-dummy.m */,
+				D849ADD516693FE40BBDC8A193F69B67 /* Pods-ScreenRecordUITests-frameworks.sh */,
+				01BB6DDE647E4E4A58A6F1C3C703EC80 /* Pods-ScreenRecordUITests-resources.sh */,
+				4491B99618AF254A262129FC3FA364E1 /* Pods-ScreenRecordUITests.debug.xcconfig */,
+				6D6E0D632A968792063BDE8040DC3FB7 /* Pods-ScreenRecordUITests.release.xcconfig */,
+			);
+			name = "Pods-ScreenRecordUITests";
+			path = "Target Support Files/Pods-ScreenRecordUITests";
+			sourceTree = "<group>";
+		};
+		DAEFE7FA87036E40175B8D47602CCB94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E04B3C1111916EC5BA14B17A203F1800 /* libLYPScreenRecord.a */,
+				C6B18AB3CDD820E7D4E70D42821FFB2E /* libMasonry.a */,
+				8A3CD222E1AB85502D63E37595C9BEC4 /* libPods-ScreenRecord.a */,
+				5FC4785B83B61E97DCFB2DF83A5C53C5 /* libPods-ScreenRecordTests.a */,
+				A3CAFAE2B1B653571C38EB2EC6A3B459 /* libPods-ScreenRecordUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E55BAFFD4C06E01334236C2C25280071 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9C70F4CAB8AE4B52243A843A828BD44 /* LYPScreenRecord.xcconfig */,
+				C514934ED6161AB39B1A6171647049FF /* LYPScreenRecord-dummy.m */,
+				EAC8ECA79ED80469EB190BC085B84913 /* LYPScreenRecord-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LYPScreenRecord";
+			sourceTree = "<group>";
+		};
+		FD50E030421672332077D41D8B4BF1A7 /* Pods-ScreenRecord */ = {
+			isa = PBXGroup;
+			children = (
+				D6190E844793A7261115FB580B306E4E /* Pods-ScreenRecord-acknowledgements.markdown */,
+				61D6244E729448E961046E96D69E47DC /* Pods-ScreenRecord-acknowledgements.plist */,
+				D3DF08A20880CE38A0A0793606BE4EBD /* Pods-ScreenRecord-dummy.m */,
+				28313FA0C3797382C60F33B5E4B49A20 /* Pods-ScreenRecord-frameworks.sh */,
+				578181750B20389E562771A24E2E48EB /* Pods-ScreenRecord-resources.sh */,
+				10232FA56375084E7CEB2A3AF374E4FE /* Pods-ScreenRecord.debug.xcconfig */,
+				48D6075958E5CDB91E77148CACC2035A /* Pods-ScreenRecord.release.xcconfig */,
+			);
+			name = "Pods-ScreenRecord";
+			path = "Target Support Files/Pods-ScreenRecord";
+			sourceTree = "<group>";
+		};
+		FE21B4C1D7B26FA23565BE5C11F9F1EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AAC50C4A27EAB3019F448B5121E6BE4 /* Masonry.xcconfig */,
+				04C129CFF1CDEBDF066F89067608CDFF /* Masonry-dummy.m */,
+				B5735061CF97C9FB386AB11E5A88E85B /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		783617E71C325D224C897EAD430B8DD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E2C98D5217D3B6E69B383862C675E3 /* LYPCameraRecorder.h in Headers */,
+				16D1B9FC4AB029EAACE0CC47BBD79470 /* LYPRecordable.h in Headers */,
+				2D41CE99F847EF3C233EDBD46F207AE8 /* LYPScreenRecorder.h in Headers */,
+				1CA67CCBE1B4E8638147F262ACFAF7CC /* LYPSRDefine.h in Headers */,
+				8AD91ABEA622742097F36E7AA0F1B616 /* LYPUIViewRecorder.h in Headers */,
+				4E88028E09669A5F174513A0211236FA /* LYPVideoWriter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF73468622762862D2FB76ED4AC0D8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E09711F001C49F92A97060414E262B /* MASCompositeConstraint.h in Headers */,
+				4CBE1B46550A3FB90FDD1CB9CBA7B7FE /* MASConstraint+Private.h in Headers */,
+				6249770A7D163B0F3001D5A76C5FA01C /* MASConstraint.h in Headers */,
+				EC48DE078CA5E55922CCE02354D475CD /* MASConstraintMaker.h in Headers */,
+				A6436E3CFFCBFE591E2D2A68ED90CAC6 /* MASLayoutConstraint.h in Headers */,
+				49B903D576E09560C52AA92FDCC31A68 /* Masonry.h in Headers */,
+				1F3BD3BC28432BB5E2F73501E06E4579 /* MASUtilities.h in Headers */,
+				E1E771349813022263F549BDF33CB4BB /* MASViewAttribute.h in Headers */,
+				A83991D7C1373DF66020C2FDFC5D7564 /* MASViewConstraint.h in Headers */,
+				490CA524521F7D444EA58FA915D7E99C /* NSArray+MASAdditions.h in Headers */,
+				E072DA57403C4BFF9B10467BE05604C5 /* NSArray+MASShorthandAdditions.h in Headers */,
+				9934AEA2C891C201D8ED5746FF42FE1B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */,
+				983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */,
+				C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32E3854EA8A7ED95EAF01094C0B5E3B0 /* Pods-ScreenRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11D177BD613985A2F216E94D31CDD01 /* Build configuration list for PBXNativeTarget "Pods-ScreenRecordUITests" */;
+			buildPhases = (
+				2F88805B4C8C922EBB83965A12EFCC2B /* Sources */,
+				F9B6CC4AF4A725F296333691309660CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ScreenRecordUITests";
+			productName = "Pods-ScreenRecordUITests";
+			productReference = A3CAFAE2B1B653571C38EB2EC6A3B459 /* libPods-ScreenRecordUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4D3E5BC1A85BFAFD815A45BF2F2D67AD /* Pods-ScreenRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09441F3C766F2351760C90C8CDA9611 /* Build configuration list for PBXNativeTarget "Pods-ScreenRecord" */;
+			buildPhases = (
+				95D0DC6A1F4D99FC13A2EE023876C7B3 /* Sources */,
+				6FAEE273E01B753BE77947542DEA13AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A550F04836E9BEA0652A7AE8DDA1C80F /* PBXTargetDependency */,
+				570540A98C5A0C174E7568E105C99252 /* PBXTargetDependency */,
+			);
+			name = "Pods-ScreenRecord";
+			productName = "Pods-ScreenRecord";
+			productReference = 8A3CD222E1AB85502D63E37595C9BEC4 /* libPods-ScreenRecord.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6BCE5BB316FC8BCEA4022A694EC1E333 /* LYPScreenRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADC548E9BBB026BAAC49BBE9DC7ABBC /* Build configuration list for PBXNativeTarget "LYPScreenRecord" */;
+			buildPhases = (
+				E17D8CF828D84B02D1DBD5A21B6A2E5D /* Sources */,
+				A8DE13B32DC18944CDE3CB549D60698B /* Frameworks */,
+				783617E71C325D224C897EAD430B8DD6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYPScreenRecord;
+			productName = LYPScreenRecord;
+			productReference = E04B3C1111916EC5BA14B17A203F1800 /* libLYPScreenRecord.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				C4BE2DC1E815E7367562323223772531 /* Sources */,
+				6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */,
+				BDF73468622762862D2FB76ED4AC0D8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = C6B18AB3CDD820E7D4E70D42821FFB2E /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A74ABC46DC021A94159696296B1E372F /* Pods-ScreenRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC233ED62800819F0D4241268D7BAAD /* Build configuration list for PBXNativeTarget "Pods-ScreenRecordTests" */;
+			buildPhases = (
+				F2A86503CA54C400FBDEB408B3D71F06 /* Sources */,
+				19B630FA0B1C2D2522A94876EA527634 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ScreenRecordTests";
+			productName = "Pods-ScreenRecordTests";
+			productReference = 5FC4785B83B61E97DCFB2DF83A5C53C5 /* libPods-ScreenRecordTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DAEFE7FA87036E40175B8D47602CCB94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BCE5BB316FC8BCEA4022A694EC1E333 /* LYPScreenRecord */,
+				9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */,
+				4D3E5BC1A85BFAFD815A45BF2F2D67AD /* Pods-ScreenRecord */,
+				A74ABC46DC021A94159696296B1E372F /* Pods-ScreenRecordTests */,
+				32E3854EA8A7ED95EAF01094C0B5E3B0 /* Pods-ScreenRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F88805B4C8C922EBB83965A12EFCC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FBFC684E24AB7D7531F050E5883554 /* Pods-ScreenRecordUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D0DC6A1F4D99FC13A2EE023876C7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17353540133C253E7780BB16DDAEAACE /* Pods-ScreenRecord-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BE2DC1E815E7367562323223772531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */,
+				89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */,
+				DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */,
+				955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */,
+				68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */,
+				13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */,
+				2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */,
+				7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */,
+				3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */,
+				D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17D8CF828D84B02D1DBD5A21B6A2E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B231E488ACB595078FE986DDBE21FB /* LYPCameraRecorder.m in Sources */,
+				08F9D60D4A3C6972BB333A7CD8BFEBF9 /* LYPScreenRecord-dummy.m in Sources */,
+				F446B30D20CF9D25EC4BDAEE7323B219 /* LYPScreenRecorder.m in Sources */,
+				2B1002A3D13646ABFA86057F32D413CD /* LYPUIViewRecorder.m in Sources */,
+				F4AAED37D16648578168FF7F946EEE0A /* LYPVideoWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A86503CA54C400FBDEB408B3D71F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF787F038179E0C9EB968FC0A4AD3EA6 /* Pods-ScreenRecordTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		570540A98C5A0C174E7568E105C99252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */;
+			targetProxy = 2F5D5C6E4CE5D0758587C3D2FE5C983A /* PBXContainerItemProxy */;
+		};
+		A550F04836E9BEA0652A7AE8DDA1C80F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LYPScreenRecord;
+			target = 6BCE5BB316FC8BCEA4022A694EC1E333 /* LYPScreenRecord */;
+			targetProxy = B4F38FEF891446D7A9EC80327373BA08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1F8C91AA47BE47E181C69FA0C43D1C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FE2DE80C7BD2EC12DFB75D6EE10EF2 /* Pods-ScreenRecordTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		473E5672FFDA9875C6EA416F69A952A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C4C0077A66ABD26A134CC129C8A77BC /* Pods-ScreenRecordTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		599B704B5DB58D8F3F2FA517702E7042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6E0D632A968792063BDE8040DC3FB7 /* Pods-ScreenRecordUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		612EC2C746B46017B30A3D30F48A5355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4491B99618AF254A262129FC3FA364E1 /* Pods-ScreenRecordUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D54EFA5C3A7E5C592ECB767E9A3D39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C70F4CAB8AE4B52243A843A828BD44 /* LYPScreenRecord.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LYPScreenRecord/LYPScreenRecord-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7B43731E617D8EDB5281E46D008B7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C70F4CAB8AE4B52243A843A828BD44 /* LYPScreenRecord.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LYPScreenRecord/LYPScreenRecord-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF53C417A8018AFCC98FD8D8A48AD9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D6075958E5CDB91E77148CACC2035A /* Pods-ScreenRecord.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4AA09D6A87734975482BB05CC1F54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAC50C4A27EAB3019F448B5121E6BE4 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2EB527A037E509A0FEFD78B70F3433D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAC50C4A27EAB3019F448B5121E6BE4 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9659283670644F46A89107BFEAEEE36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10232FA56375084E7CEB2A3AF374E4FE /* Pods-ScreenRecord.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EB527A037E509A0FEFD78B70F3433D /* Debug */,
+				DB4AA09D6A87734975482BB05CC1F54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC233ED62800819F0D4241268D7BAAD /* Build configuration list for PBXNativeTarget "Pods-ScreenRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F8C91AA47BE47E181C69FA0C43D1C34 /* Debug */,
+				473E5672FFDA9875C6EA416F69A952A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ADC548E9BBB026BAAC49BBE9DC7ABBC /* Build configuration list for PBXNativeTarget "LYPScreenRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B43731E617D8EDB5281E46D008B7D1 /* Debug */,
+				9D54EFA5C3A7E5C592ECB767E9A3D39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B09441F3C766F2351760C90C8CDA9611 /* Build configuration list for PBXNativeTarget "Pods-ScreenRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9659283670644F46A89107BFEAEEE36 /* Debug */,
+				AF53C417A8018AFCC98FD8D8A48AD9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D11D177BD613985A2F216E94D31CDD01 /* Build configuration list for PBXNativeTarget "Pods-ScreenRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				612EC2C746B46017B30A3D30F48A5355 /* Debug */,
+				599B704B5DB58D8F3F2FA517702E7042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

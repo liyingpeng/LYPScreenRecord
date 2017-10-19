@@ -1,0 +1,15 @@
+PODS:
+  - LYPScreenRecord (0.0.1)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - LYPScreenRecord
+  - Masonry
+
+SPEC CHECKSUMS:
+  LYPScreenRecord: 75e4de95fc2e4e76d1ca438486c5a7d48fd16e12
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 587c4f7bbd033bfd4419154d4f6dced2141d5c69
+
+COCOAPODS: 1.3.1
